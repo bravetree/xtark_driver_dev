@@ -1,0 +1,5 @@
+<launch>
+
+<test test-name="test_detection" pkg="xtark_line_follower" type="test_detection" cwd="node"/>
+
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/install
+
+Name: warehouse_ros
+Description: Description of warehouse_ros
+Version: 0.9.2
+Cflags: -I/home/xtark/ros_ws/install/include -I/usr/include
+Libs: -L/home/xtark/ros_ws/install/lib -lwarehouse_ros /usr/lib/arm-linux-gnueabihf/libboost_system.so /usr/lib/arm-linux-gnueabihf/libboost_filesystem.so /usr/lib/arm-linux-gnueabihf/libboost_thread.so -lpthread /usr/lib/arm-linux-gnueabihf/libboost_chrono.so /usr/lib/arm-linux-gnueabihf/libboost_date_time.so /usr/lib/arm-linux-gnueabihf/libboost_atomic.so
+Requires: roscpp rostime std_msgs geometry_msgs

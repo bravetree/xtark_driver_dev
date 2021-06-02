@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/devel
+
+Name: xtark_cv
+Description: Description of xtark_cv
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/xtark/ros_ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/install
+
+Name: slam_karto
+Description: Description of slam_karto
+Version: 0.7.3
+Cflags: 
+Libs: -L/home/xtark/ros_ws/install/lib 
+Requires: 

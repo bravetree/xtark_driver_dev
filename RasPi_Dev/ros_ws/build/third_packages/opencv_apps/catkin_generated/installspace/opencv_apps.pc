@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/install
+
+Name: opencv_apps
+Description: Description of opencv_apps
+Version: 2.0.1
+Cflags: -I/home/xtark/ros_ws/install/include
+Libs: -L/home/xtark/ros_ws/install/lib -lopencv_apps
+Requires: message_runtime sensor_msgs std_msgs

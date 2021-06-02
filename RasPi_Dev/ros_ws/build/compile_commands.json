@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/xtark/ros_ws/build/third_packages/joystick_drivers/wiimote",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wiimote\\\" -I/home/xtark/ros_ws/devel/include -I/home/xtark/ros_ws/src/third_packages/joystick_drivers/wiimote/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fPIE -fPIC -std=c++11 -O2 -D_FORTIFY_SOURCE=2 -fstack-protector -Wformat -Wformat-security -Wall    -o CMakeFiles/teleop_wiimote.dir/src/teleop_wiimote.cpp.o -c /home/xtark/ros_ws/src/third_packages/joystick_drivers/wiimote/src/teleop_wiimote.cpp",
+  "file": "/home/xtark/ros_ws/src/third_packages/joystick_drivers/wiimote/src/teleop_wiimote.cpp"
+},
+{
+  "directory": "/home/xtark/ros_ws/build/third_packages/joystick_drivers/wiimote",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wiimote\\\" -I/home/xtark/ros_ws/devel/include -I/home/xtark/ros_ws/src/third_packages/joystick_drivers/wiimote/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fPIE -fPIC -std=c++11 -O2 -D_FORTIFY_SOURCE=2 -fstack-protector -Wformat -Wformat-security -Wall    -o CMakeFiles/wiimote_node.dir/src/wiimote_controller.cpp.o -c /home/xtark/ros_ws/src/third_packages/joystick_drivers/wiimote/src/wiimote_controller.cpp",
+  "file": "/home/xtark/ros_ws/src/third_packages/joystick_drivers/wiimote/src/wiimote_controller.cpp"
+},
+{
+  "directory": "/home/xtark/ros_ws/build/third_packages/joystick_drivers/wiimote",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wiimote\\\" -I/home/xtark/ros_ws/devel/include -I/home/xtark/ros_ws/src/third_packages/joystick_drivers/wiimote/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -fPIE -fPIC -std=c++11 -O2 -D_FORTIFY_SOURCE=2 -fstack-protector -Wformat -Wformat-security -Wall    -o CMakeFiles/wiimote_node.dir/src/stat_vector_3d.cpp.o -c /home/xtark/ros_ws/src/third_packages/joystick_drivers/wiimote/src/stat_vector_3d.cpp",
+  "file": "/home/xtark/ros_ws/src/third_packages/joystick_drivers/wiimote/src/stat_vector_3d.cpp"
+}
+]

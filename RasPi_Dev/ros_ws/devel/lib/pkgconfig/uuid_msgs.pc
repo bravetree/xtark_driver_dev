@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/devel
+
+Name: uuid_msgs
+Description: Description of uuid_msgs
+Version: 1.0.6
+Cflags: -I/home/xtark/ros_ws/devel/include -I/usr/include
+Libs: -L/home/xtark/ros_ws/devel/lib 
+Requires: message_runtime std_msgs

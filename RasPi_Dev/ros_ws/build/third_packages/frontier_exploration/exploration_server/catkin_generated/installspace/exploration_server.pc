@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/install
+
+Name: exploration_server
+Description: Description of exploration_server
+Version: 0.4.2
+Cflags: -I/home/xtark/ros_ws/install/include
+Libs: -L/home/xtark/ros_ws/install/lib 
+Requires: actionlib costmap_2d exploration_msgs roscpp tf

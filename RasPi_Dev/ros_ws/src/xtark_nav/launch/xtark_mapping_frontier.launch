@@ -1,0 +1,30 @@
+<launch>
+
+	<!-- 启动底盘及激光雷达等驱动包 -->
+        <include file="$(find xtark_driver)/launch/xtark_bringup.launch" />
+
+	<!-- 启动USB摄像头驱动包 -->
+        <include file="$(find xtark_driver)/launch/xtark_camera.launch"/>
+	
+	<!-- 启动Gmapping建图算法包 -->	
+	<include file="$(find xtark_nav)/launch/include/gmapping_base.launch" />
+ 
+        <!-- 启动路径规划算法包 -->	
+	<include file="$(find xtark_nav)/launch/include/teb_move_base_omni.launch"/>
+	
+	<!-- 启动自探索建图算法包 -->	
+	<include file="$(find frontier_exploration)/launch/global_map.launch"/>
+
+       
+	<!-- 启动APP接口相关服务 -->
+        <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/>
+        <node name="robot_pose_publisher" pkg="robot_pose_publisher" type="robot_pose_publisher"/>
+        <arg name="debug" default="false"/>
+        <node pkg="world_canvas_server" type="world_canvas_server" name="world_canvas_server" args="$(arg debug)">
+                <param name="start_map_manager" value="true"/>
+                <param name="auto_save_map" value="false"/>
+        </node>
+        <node pkg="world_canvas_server" type="map_manager.py" name="map_manager" />
+
+</launch>
+

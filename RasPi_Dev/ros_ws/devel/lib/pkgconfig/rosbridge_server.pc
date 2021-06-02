@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/devel
+
+Name: rosbridge_server
+Description: Description of rosbridge_server
+Version: 0.11.1
+Cflags: 
+Libs: -L/home/xtark/ros_ws/devel/lib 
+Requires: 

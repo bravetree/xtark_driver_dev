@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xtark/ros_ws/src/third_packages/ecl_config/src/utilities/detect_posix.cpp
+iostream
+-
+unistd.h
+-
+cstdio
+-
+

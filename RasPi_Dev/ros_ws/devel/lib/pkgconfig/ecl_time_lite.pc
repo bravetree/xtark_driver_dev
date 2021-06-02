@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/devel
+
+Name: ecl_time_lite
+Description: Description of ecl_time_lite
+Version: 0.61.6
+Cflags: -I/home/xtark/ros_ws/src/third_packages/ecl/ecl_time_lite/include -I/home/xtark/ros_ws/devel/include
+Libs: -L/home/xtark/ros_ws/devel/lib -lecl_time_lite -lrt
+Requires: 

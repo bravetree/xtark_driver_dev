@@ -1,0 +1,6 @@
+set(warehouse_ros_mongo_SETUP_PY_VERSION "0.8.8")
+set(warehouse_ros_mongo_SETUP_PY_SCRIPTS "")
+set(warehouse_ros_mongo_SETUP_PY_PACKAGES "warehouse_ros_mongo")
+set(warehouse_ros_mongo_SETUP_PY_PACKAGE_DIRS "src/warehouse_ros_mongo")
+set(warehouse_ros_mongo_SETUP_PY_MODULES "")
+set(warehouse_ros_mongo_SETUP_PY_MODULE_DIRS "")

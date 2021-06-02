@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/opencv_apps_generate_messages_nodejs"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/Circle.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/RotatedRectArrayStamped.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/LineArray.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/FlowStamped.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/LineArrayStamped.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/RotatedRectStamped.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/Contour.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/FaceArray.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/RectArray.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/Point2DStamped.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/FlowArrayStamped.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/Rect.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/ContourArrayStamped.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/Point2D.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/Face.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/CircleArrayStamped.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/Point2DArrayStamped.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/Point2DArray.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/RotatedRectArray.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/Moment.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/Size.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/MomentArrayStamped.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/FaceArrayStamped.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/Line.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/CircleArray.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/RectArrayStamped.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/FlowArray.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/MomentArray.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/ContourArray.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/Flow.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/msg/RotatedRect.js"
+  "/home/xtark/ros_ws/devel/share/gennodejs/ros/opencv_apps/srv/FaceRecognitionTrain.js"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/opencv_apps_generate_messages_nodejs.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/devel
+
+Name: libuvc_camera
+Description: Description of libuvc_camera
+Version: 0.0.10
+Cflags: -I/home/xtark/ros_ws/devel/include
+Libs: -L/home/xtark/ros_ws/devel/lib -llibuvc_camera_nodelet
+Requires: roscpp camera_info_manager dynamic_reconfigure image_transport nodelet sensor_msgs

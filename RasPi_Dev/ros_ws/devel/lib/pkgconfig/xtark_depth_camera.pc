@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/devel
+
+Name: xtark_depth_camera
+Description: Description of xtark_depth_camera
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/xtark/ros_ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/install
+
+Name: rosbridge_library
+Description: Description of rosbridge_library
+Version: 0.11.1
+Cflags: -I/home/xtark/ros_ws/install/include
+Libs: -L/home/xtark/ros_ws/install/lib 
+Requires: message_runtime std_msgs geometry_msgs

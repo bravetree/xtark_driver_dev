@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/install
+
+Name: xtark_ext
+Description: Description of xtark_ext
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/xtark/ros_ws/install/lib 
+Requires: 

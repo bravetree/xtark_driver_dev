@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/install
+
+Name: ecl_time
+Description: Description of ecl_time
+Version: 0.61.18
+Cflags: -I/home/xtark/ros_ws/install/include
+Libs: -L/home/xtark/ros_ws/install/lib -lecl_time
+Requires: ecl_build ecl_config ecl_errors ecl_exceptions ecl_time_lite

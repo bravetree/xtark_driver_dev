@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/install
+
+Name: xtark_robot_vision
+Description: Description of xtark_robot_vision
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/xtark/ros_ws/install/lib 
+Requires: 

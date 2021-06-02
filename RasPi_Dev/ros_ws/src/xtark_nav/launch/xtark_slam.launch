@@ -1,0 +1,8 @@
+<launch>
+	<!-- 设置SLAM算法 -->
+	<arg name="slam_methods" default="gmapping" doc="slam type [gmapping,karto,hector,frontier]"/>
+
+	<!-- 启动选中的SLAM算法 -->	
+	<include file="$(find xtark_nav)/launch/xtark_mapping_$(arg slam_methods).launch"/>
+
+</launch>

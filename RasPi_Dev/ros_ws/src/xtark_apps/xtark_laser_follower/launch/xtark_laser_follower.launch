@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find xtark_driver)/launch/xtark_bringup.launch"/>
+  <include file='$(find xtark_laser_follower)/launch/laser_follower/laserTracker.launch' />
+  <include file='$(find xtark_laser_follower)/launch/laser_follower/follower.launch' />
+</launch>

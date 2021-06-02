@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/devel
+
+Name: sparse_bundle_adjustment
+Description: Description of sparse_bundle_adjustment
+Version: 0.3.2
+Cflags: -I/home/xtark/ros_ws/src/third_packages/sparse_bundle_adjustment/include
+Libs: -L/home/xtark/ros_ws/devel/lib -lsba
+Requires: 

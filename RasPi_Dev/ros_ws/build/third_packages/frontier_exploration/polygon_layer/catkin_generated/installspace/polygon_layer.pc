@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/install
+
+Name: polygon_layer
+Description: Description of polygon_layer
+Version: 0.4.2
+Cflags: -I/home/xtark/ros_ws/install/include -I/usr/include
+Libs: -L/home/xtark/ros_ws/install/lib -lpolygon_layer
+Requires: costmap_2d geometry_msgs

@@ -1,0 +1,33 @@
+<launch>
+    <param name="use_sim_time" value="false"/>
+
+   <!-- 启动xtark_driver驱动包  -->
+   <include file="$(find xtark_driver)/launch/xtark_driver.launch"/>
+
+   <!-- 启动激光雷达驱动包  -->
+   <include file="$(find rplidar_ros)/launch/rplidar.launch" />
+
+   <!-- 启动USB摄像头驱动包 -->
+   <include file="$(find usb_cam)/launch/usb_cam-test.launch"/>
+   <node name="web_video_server" pkg="web_video_server" type="web_video_server" output="screen"/>
+
+   <!-- 启动rosbridge服务 -->
+   <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/>
+
+
+   <!-- 发布robot_pose话题,发布map->base_footprint坐标关系 -->
+   <node name="robot_pose_publisher" pkg="robot_pose_publisher" type="robot_pose_publisher"/>
+
+
+   <arg name="debug" default="false"/>
+   <!-- APP相关服务 -->
+   <node pkg="world_canvas_server" type="world_canvas_server" name="world_canvas_server" args="$(arg debug)">
+           <param name="start_map_manager" value="true"/>
+           <param name="auto_save_map" value="false"/>
+   </node>
+   <node pkg="world_canvas_server" type="map_manager.py" name="map_manager" />
+
+   <!-- 发布laser->base_footprint固定坐标变换 -->
+   <node pkg="tf" type="static_transform_publisher" name="base_foot_print_to_laser" args="0.04 0 0 3.1415926 0 0 base_footprint laser 100"/>
+
+</launch>

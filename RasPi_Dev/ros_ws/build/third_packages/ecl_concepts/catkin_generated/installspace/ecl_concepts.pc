@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/install
+
+Name: ecl_concepts
+Description: Description of ecl_concepts
+Version: 0.61.18
+Cflags: -I/home/xtark/ros_ws/install/include
+Libs: -L/home/xtark/ros_ws/install/lib 
+Requires: ecl_config ecl_type_traits

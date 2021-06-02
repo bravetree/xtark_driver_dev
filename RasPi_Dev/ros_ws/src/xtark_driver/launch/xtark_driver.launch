@@ -1,0 +1,21 @@
+<launch>
+    <param name="use_sim_time" value="false"/>
+
+
+    <!-- 启动xtark_driver驱动包 -->
+    <node name="xtart_driver" pkg="xtark_driver" type="xtark_driver" output="screen" respawn="true">
+        <rosparam file="$(find xtark_driver)/config/xtark_params.yaml" command="load"/>
+	<param name="publish_odom_transform" value="true"/>
+	<param name="odom_frame"             value="/odom"/>
+    </node>
+
+    <!-- 启动imu校准节点 -->
+    <node name="apply_calib" pkg="imu_calib" type="apply_calib" output="screen" respawn="true">
+	<remap from="raw" to="/imu_raw"/>
+	<remap from="corrected" to="/imu"/>
+	<param name="calib_file" value="$(find xtark_driver)/config/imu_calib.yaml"/>
+	<param name="calibrate_gyros" value="true"/>
+	<param name="gyro_calib_samples" value="100"/>
+    </node>
+    <node pkg="tf" type="static_transform_publisher" name="base_footprint_to_imu" args="-0.05 0 0.05 -1.57 0 0 base_footprint base_imu_link 100"/>
+</launch>

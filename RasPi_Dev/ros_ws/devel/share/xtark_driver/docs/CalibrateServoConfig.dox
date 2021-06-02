@@ -1,0 +1,6 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~ServoBias" : \b [int] ServoBias min: -20, default: 0, max: 20
+

@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/install
+
+Name: wiimote
+Description: Description of wiimote
+Version: 1.11.0
+Cflags: -I/home/xtark/ros_ws/install/include
+Libs: -L/home/xtark/ros_ws/install/lib 
+Requires: geometry_msgs sensor_msgs std_msgs std_srvs rospy roscpp roslib genmsg

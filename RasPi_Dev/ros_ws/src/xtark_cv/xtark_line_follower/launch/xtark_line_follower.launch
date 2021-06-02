@@ -1,0 +1,24 @@
+<launch>
+
+	<include file="$(find xtark_driver)/launch/xtark_driver.launch"/>
+	<include file="$(find xtark_driver)/launch/xtark_camera.launch"/>
+
+        <!-- Detection node -->
+	<node pkg="xtark_line_follower" name="detection" type="detect" cwd="node" output="screen">
+
+		<param name="h_low" value="0"/>
+		<param name="h_high" value="10"/>
+
+		<param name="s_low" value="70"/>
+		<param name="s_high" value="255"/>
+		
+		<param name="v_low" value="50"/>
+		<param name="v_high" value="255"/>
+
+	</node>
+
+<!-- Robot commands node -->
+	<node pkg="xtark_line_follower" name="Velocity" type="navig" cwd="node" output="screen">
+	</node>
+
+</launch>

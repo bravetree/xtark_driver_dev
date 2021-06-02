@@ -1,0 +1,6 @@
+set(xtark_line_follower_SETUP_PY_VERSION "0.0.0")
+set(xtark_line_follower_SETUP_PY_SCRIPTS "")
+set(xtark_line_follower_SETUP_PY_PACKAGES "xtark_line_follower")
+set(xtark_line_follower_SETUP_PY_PACKAGE_DIRS "src/xtark_line_follower")
+set(xtark_line_follower_SETUP_PY_MODULES "")
+set(xtark_line_follower_SETUP_PY_MODULE_DIRS "")

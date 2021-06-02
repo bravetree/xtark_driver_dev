@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/devel
+
+Name: ecl_config
+Description: Description of ecl_config
+Version: 0.61.6
+Cflags: -I/home/xtark/ros_ws/src/third_packages/ecl/ecl_config/include -I/home/xtark/ros_ws/devel/include
+Libs: -L/home/xtark/ros_ws/devel/lib 
+Requires: 

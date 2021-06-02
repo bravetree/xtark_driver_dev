@@ -1,0 +1,11 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~h_low" : \b [int] HSV color space h_low min: 0, default: 0, max: 255
+- \b "~s_low" : \b [int] HSV color space s_low min: 0, default: 70, max: 255
+- \b "~v_low" : \b [int] HSV color space v_low min: 0, default: 50, max: 255
+- \b "~h_high" : \b [int] HSV color space h_high min: 0, default: 10, max: 255
+- \b "~s_high" : \b [int] HSV color space s_high min: 0, default: 255, max: 255
+- \b "~v_high" : \b [int] HSV color space v_high min: 0, default: 255, max: 255
+

@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="xtark_ilne_follower" pkg="xtark_line_follower" type="xtark_ilne_follower">
+  <param name="h_low" type="int" value="0" />
+  <param name="s_low" type="int" value="70" />
+  <param name="v_low" type="int" value="50" />
+  <param name="h_high" type="int" value="10" />
+  <param name="s_high" type="int" value="255" />
+  <param name="v_high" type="int" value="255" />
+</node>
+\endverbatim
+

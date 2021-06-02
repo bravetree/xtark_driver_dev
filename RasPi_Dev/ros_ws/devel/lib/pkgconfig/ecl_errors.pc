@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/devel
+
+Name: ecl_errors
+Description: Description of ecl_errors
+Version: 0.61.6
+Cflags: -I/home/xtark/ros_ws/src/third_packages/ecl/ecl_errors/include
+Libs: -L/home/xtark/ros_ws/devel/lib -lecl_errors
+Requires: 

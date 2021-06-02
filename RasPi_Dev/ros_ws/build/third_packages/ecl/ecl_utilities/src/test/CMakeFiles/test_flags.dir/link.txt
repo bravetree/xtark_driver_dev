@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/test_flags.dir/flags.cpp.o  -o /home/xtark/ros_ws/devel/lib/ecl_utilities/test_flags -Wl,-Bstatic -lgtest -Wl,-Bdynamic 

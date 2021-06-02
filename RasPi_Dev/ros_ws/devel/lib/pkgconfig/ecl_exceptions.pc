@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/devel
+
+Name: ecl_exceptions
+Description: Description of ecl_exceptions
+Version: 0.61.18
+Cflags: -I/home/xtark/ros_ws/src/third_packages/ecl/ecl_exceptions/include
+Libs: -L/home/xtark/ros_ws/devel/lib -lecl_exceptions
+Requires: ecl_config ecl_errors

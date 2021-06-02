@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/devel
+
+Name: ecl_eigen
+Description: Description of ecl_eigen
+Version: 0.61.18
+Cflags: -I/home/xtark/ros_ws/src/third_packages/ecl_core/ecl_eigen/include -I/home/xtark/ros_ws/devel/include -I/usr/include/eigen3
+Libs: -L/home/xtark/ros_ws/devel/lib 
+Requires: 

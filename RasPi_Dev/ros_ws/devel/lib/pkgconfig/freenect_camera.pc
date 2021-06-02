@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/devel
+
+Name: freenect_camera
+Description: Description of freenect_camera
+Version: 0.4.2
+Cflags: -I/home/xtark/ros_ws/devel/include
+Libs: -L/home/xtark/ros_ws/devel/lib 
+Requires: camera_info_manager diagnostic_updater dynamic_reconfigure image_transport nodelet roscpp sensor_msgs

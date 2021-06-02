@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/devel
+
+Name: rosapi
+Description: Description of rosapi
+Version: 0.11.1
+Cflags: -I/home/xtark/ros_ws/devel/include
+Libs: -L/home/xtark/ros_ws/devel/lib 
+Requires: message_runtime

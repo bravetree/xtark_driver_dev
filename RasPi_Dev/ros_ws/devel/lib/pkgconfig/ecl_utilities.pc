@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/devel
+
+Name: ecl_utilities
+Description: Description of ecl_utilities
+Version: 0.61.18
+Cflags: -I/home/xtark/ros_ws/src/third_packages/ecl/ecl_utilities/include
+Libs: -L/home/xtark/ros_ws/devel/lib 
+Requires: ecl_mpl ecl_concepts

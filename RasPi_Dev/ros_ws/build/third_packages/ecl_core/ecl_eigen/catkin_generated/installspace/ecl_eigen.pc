@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/install
+
+Name: ecl_eigen
+Description: Description of ecl_eigen
+Version: 0.61.18
+Cflags: -I/home/xtark/ros_ws/install/include -I/usr/include/eigen3
+Libs: -L/home/xtark/ros_ws/install/lib 
+Requires: 

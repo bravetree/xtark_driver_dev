@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/devel
+
+Name: xtark_driver
+Description: Description of xtark_driver
+Version: 0.1.1
+Cflags: -I/home/xtark/ros_ws/devel/include
+Libs: -L/home/xtark/ros_ws/devel/lib 
+Requires: roscpp rospy tf

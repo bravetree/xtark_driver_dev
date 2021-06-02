@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xtark/ros_ws/devel/include/ecl/config/ecl.hpp
+ecl_unknown.hpp
+/home/xtark/ros_ws/devel/include/ecl/config/ecl_unknown.hpp
+
+/home/xtark/ros_ws/src/third_packages/ecl/ecl_exceptions/src/examples/exception_tracer.cpp
+ecl/config/ecl.hpp
+-
+execinfo.h
+-
+signal.h
+-
+cstdlib
+-
+exception
+-
+iostream
+-
+iostream
+-
+

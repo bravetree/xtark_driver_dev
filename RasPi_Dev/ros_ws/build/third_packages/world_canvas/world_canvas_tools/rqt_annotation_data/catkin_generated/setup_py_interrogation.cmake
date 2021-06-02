@@ -1,0 +1,6 @@
+set(rqt_annotation_data_SETUP_PY_VERSION "0.0.0")
+set(rqt_annotation_data_SETUP_PY_SCRIPTS "")
+set(rqt_annotation_data_SETUP_PY_PACKAGES "rqt_annotation_data")
+set(rqt_annotation_data_SETUP_PY_PACKAGE_DIRS "src/rqt_annotation_data")
+set(rqt_annotation_data_SETUP_PY_MODULES "")
+set(rqt_annotation_data_SETUP_PY_MODULE_DIRS "")

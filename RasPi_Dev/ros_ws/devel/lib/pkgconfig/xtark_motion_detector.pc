@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/devel
+
+Name: xtark_motion_detector
+Description: Description of xtark_motion_detector
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/xtark/ros_ws/devel/lib 
+Requires: 

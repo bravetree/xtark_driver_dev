@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/install
+
+Name: xtark_laser_follower
+Description: Description of xtark_laser_follower
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/xtark/ros_ws/install/lib 
+Requires: 

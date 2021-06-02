@@ -1,0 +1,10 @@
+# CMake generated Testfile for 
+# Source directory: /home/xtark/ros_ws/src/third_packages/ecl/ecl_threads/src/test
+# Build directory: /home/xtark/ros_ws/build/third_packages/ecl/ecl_threads/src/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_ecl_threads_gtest_ecl_test_mutex "/home/xtark/ros_ws/build/catkin_generated/env_cached.sh" "/usr/bin/python" "/opt/ros/kinetic/share/catkin/cmake/test/run_tests.py" "/home/xtark/ros_ws/build/test_results/ecl_threads/gtest-ecl_test_mutex.xml" "--return-code" "/home/xtark/ros_ws/devel/lib/ecl_threads/ecl_test_mutex --gtest_output=xml:/home/xtark/ros_ws/build/test_results/ecl_threads/gtest-ecl_test_mutex.xml")
+add_test(_ctest_ecl_threads_gtest_ecl_test_priorities "/home/xtark/ros_ws/build/catkin_generated/env_cached.sh" "/usr/bin/python" "/opt/ros/kinetic/share/catkin/cmake/test/run_tests.py" "/home/xtark/ros_ws/build/test_results/ecl_threads/gtest-ecl_test_priorities.xml" "--return-code" "/home/xtark/ros_ws/devel/lib/ecl_threads/ecl_test_priorities --gtest_output=xml:/home/xtark/ros_ws/build/test_results/ecl_threads/gtest-ecl_test_priorities.xml")
+add_test(_ctest_ecl_threads_gtest_ecl_test_threadable "/home/xtark/ros_ws/build/catkin_generated/env_cached.sh" "/usr/bin/python" "/opt/ros/kinetic/share/catkin/cmake/test/run_tests.py" "/home/xtark/ros_ws/build/test_results/ecl_threads/gtest-ecl_test_threadable.xml" "--return-code" "/home/xtark/ros_ws/devel/lib/ecl_threads/ecl_test_threadable --gtest_output=xml:/home/xtark/ros_ws/build/test_results/ecl_threads/gtest-ecl_test_threadable.xml")
+add_test(_ctest_ecl_threads_gtest_ecl_test_threads "/home/xtark/ros_ws/build/catkin_generated/env_cached.sh" "/usr/bin/python" "/opt/ros/kinetic/share/catkin/cmake/test/run_tests.py" "/home/xtark/ros_ws/build/test_results/ecl_threads/gtest-ecl_test_threads.xml" "--return-code" "/home/xtark/ros_ws/devel/lib/ecl_threads/ecl_test_threads --gtest_output=xml:/home/xtark/ros_ws/build/test_results/ecl_threads/gtest-ecl_test_threads.xml")

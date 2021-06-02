@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/devel
+
+Name: astra_launch
+Description: Description of astra_launch
+Version: 0.2.2
+Cflags: 
+Libs: -L/home/xtark/ros_ws/devel/lib 
+Requires: 

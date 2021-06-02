@@ -1,0 +1,8 @@
+prefix=/home/xtark/ros_ws/install
+
+Name: xtark_keyboard
+Description: Description of xtark_keyboard
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

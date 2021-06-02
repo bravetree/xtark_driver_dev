@@ -1,0 +1,2 @@
+xtark_joy:xtark_keyboard:xtark_viz
+-DCATKIN_DEVEL_PREFIX=/home/xtark/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/xtark/ros_ws/install -G Unix Makefiles
